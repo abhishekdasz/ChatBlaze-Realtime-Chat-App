@@ -8,7 +8,7 @@ import LeftChats from '@/Components/LeftChats';
 import Chats from '@/Components/Chats';
 import { useChatContext } from '@/context/chatContext';
 
-const index = () => {
+const Index = () => {
   const router = useRouter();
   const { signOut, currentUser, isLoading } = useAuth();
   const { data } = useChatContext();
@@ -44,4 +44,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
