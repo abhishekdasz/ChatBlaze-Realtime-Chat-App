@@ -9,7 +9,7 @@ import { useAuth } from '@/context/contextAuth';
 import { doc, setDoc } from 'firebase/firestore';
 import { profileColors } from '@/utils/constants';
 
-const register = () => {
+const Register = () => {
 
   const { currentUser, isLoading } = useAuth();
   const router = useRouter();
@@ -130,4 +130,4 @@ const register = () => {
   )
 }
 
-export default register
+export default Register
