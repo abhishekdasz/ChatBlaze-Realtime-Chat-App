@@ -9,7 +9,7 @@ import { useRouter } from 'next/router';
 import ToastMessage from '@/Components/ToastMessage';
 import { toast } from 'react-toastify';
 
-const login = () => {
+const Login = () => {
 
   const [email, setEmail] = useState("");
 
@@ -134,4 +134,4 @@ const login = () => {
   );
 }
 
-export default login
+export default Login
